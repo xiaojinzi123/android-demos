@@ -68,5 +68,15 @@ public class CommonRecyclerViewHolder extends RecyclerView.ViewHolder {
         iv.setImageResource(imageId);
     }
 
+    /**
+     * 为ImageView设置图片
+     *
+     * @param imgId
+     * @param imageId
+     */
+    public void setImage(int imgId, int imageId) {
+        ((ImageView) getView(imgId)).setImageResource(imageId);
+    }
+
 
 }
