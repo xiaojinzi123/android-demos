@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/Users/cxj/Code/android/project3.0/Demo/ndkSocket/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/cxj/Code/android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/src/main/jni/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "test-release-arm64-v8a": {
+      "buildCommand": "/Users/cxj/Code/android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/src/main/jni/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/lib /Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libtest.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "test",
+      "files": [
+        {
+          "src": "/Users/cxj/Code/android/project3.0/Demo/ndkSocket/src/main/jni/test.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/cxj/Code/android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-I/Users/cxj/Code/android/project3.0/Demo/ndkSocket/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/cxj/Code/android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/cxj/Code/android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "/Users/cxj/Code/android/project3.0/Demo/ndkSocket/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libtest.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/Users/cxj/Code/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
